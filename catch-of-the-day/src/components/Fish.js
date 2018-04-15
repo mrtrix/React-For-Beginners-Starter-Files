@@ -9,6 +9,7 @@ class Fish extends React.Component {
       name: PropTypes.string,
       desc: PropTypes.string,
       status: PropTypes.string,
+      secretInfo: PropTypes.string,
       price: PropTypes.number
     }),
     addToOrder: PropTypes.func
